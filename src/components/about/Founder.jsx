@@ -1,6 +1,6 @@
 const Founder = () => {
   return (
-    <section className='bg-black pt-10 lg:pt-30 pb-10'>
+    <section className='bg-#161717 pt-10 lg:pt-30 pb-10'>
       <div className='max-w-8xl mx-auto px-4 lg:px-16'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-14 items-center'>
           {/* IMAGE */}
@@ -19,11 +19,11 @@ const Founder = () => {
               Meet the Visionary
             </span>
 
-            <h2 className='mt-3 text-3xl md:text-4xl font-bold text-[#D4A017] leading-tight'>
+            <h2 className='mt-3 text-3xl md:text-4xl font-bold text-[#daaf65] leading-tight'>
               Meet Our Founder
             </h2>
 
-            <h4 className='mt-2 text-lg font-semibold text-[#D4A017]'>
+            <h4 className='mt-2 text-lg font-semibold text-[#daaf65]'>
               Founder & Event Director —{' '}
               <span className='text-zinc-300'>Suwi Aggarwal</span>
             </h4>

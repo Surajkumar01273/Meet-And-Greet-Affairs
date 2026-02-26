@@ -11,14 +11,14 @@ const Chat = () => {
         <div className='flex md:flex-col  md:gap-y-10 md:items-end justify-between md:justify-end'>
           <a
             href='tel:+919217017881'
-            className='bg-[#D4A017] p-4 flex items-center justify-center rounded-xl'
+            className='bg-[#daaf65] p-4 flex items-center justify-center rounded-xl'
           >
             <span>
               <FaPhone className='text-white text-2xl' />
             </span>
           </a>
           <a
-            className='bg-[#D4A017] p-3 rounded-xl flex items-center justify-center'
+            className='bg-[#daaf65] p-3 rounded-xl flex items-center justify-center'
             href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
               message,
             )}`}

@@ -18,9 +18,9 @@ export default function UpcomingEvents() {
   ];
 
   return (
-    <div className="w-full bg-black py-16 px-4 lg:px-20 -z-50">
+    <div className="w-full bg-[#161717] py-16 px-4 lg:px-20 -z-50">
       {/* Title */}
-      <h2 className="text-center text-[#D4A017] text-2xl  font-[Playfair_Display] md:text-5xl font-semibold tracking-widest mb-20">
+      <h2 className="text-center text-[#daaf65] text-2xl  font-[Playfair_Display] md:text-5xl font-semibold tracking-widest mb-20">
         UPCOMING EVENTS
       </h2>
 

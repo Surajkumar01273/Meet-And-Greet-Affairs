@@ -10,7 +10,7 @@ const AboutCTA = () => {
   };
 
   return (
-    <section className="py-20 bg-[#926c0a] text-center text-white">
+    <section className="py-20 bg-[#daaf65] text-center text-white">
       <h2 className="text-3xl font-bold mb-4">
         Let’s Plan Your Next Event
       </h2>

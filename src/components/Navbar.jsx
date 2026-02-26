@@ -38,27 +38,27 @@ const Navbar = () => {
   return (
     <header
       className={`
-        fixed top-0 left-0 w-full z-50 bg-zinc-900 text-[#D4A017] shadow-md 
+        fixed top-0 left-0 w-full z-50 bg-[#161717] text-[#daaf65] shadow-md 
         transition-all duration-300
       `}
     >
       {/* TOP BAR */}
       <div
-        className={`bg-[#D4A017] transition-all duration-300 ${
+        className={`bg-[#daaf65] transition-all duration-300 ${
           isScrolled ? 'py-1' : 'py-2'
         }`}
       >
         <div className='flex gap-4 md:flex-row items-center justify-between px-4 md:px-20'>
           <a
             href='tel:+919217017881'
-            className='text-black text-xs md:text-2xl font-semibold flex items-center gap-1'
+            className='text-[#161717] text-xs md:text-2xl font-semibold flex items-center gap-1'
           >
             <div className='text-xl p-2 bg-green-600 text-white rounded-full'><IoCallSharp /></div>
            <p className='text-lg'> +91-9217017881</p>
             
           </a>
 
-          <div className='flex items-center gap-5 ml-6 border-3 border-black py-2 px-4 rounded-xl'>
+          <div className='flex items-center gap-5 ml-6 border-3 border-[#161717] py-2 px-4 rounded-xl'>
             <a
               href='https://www.instagram.com/meetandgreetaffairs'
               target='_blank'
@@ -99,7 +99,7 @@ const Navbar = () => {
               What We Do <ChevronDown size={22} />
             </span>
 
-            <div className='absolute -left-20 hidden group-hover:block bg-zinc-800 border border-yellow-600 rounded-md mt-0 w-100 py-3'>
+            <div className='absolute -left-20 hidden group-hover:block bg-[#161717] border border-yellow-600 rounded-md mt-0 w-100 py-3'>
               {workList.map((item, index) => (
                 <Link
                   key={index}
@@ -134,7 +134,7 @@ const Navbar = () => {
         {/* MOBILE ICON */}
         <button
           onClick={toggleMenu}
-          className='lg:hidden text-[#D4A017] text-3xl'
+          className='lg:hidden text-[#daaf65] text-3xl'
         >
           {menuOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
@@ -142,7 +142,7 @@ const Navbar = () => {
 
       {/* MOBILE MENU */}
       {menuOpen && (
-        <div className='lg:hidden bg-black border-t border-yellow-500'>
+        <div className='lg:hidden bg-[#161717] border-t border-yellow-500'>
           <nav className='flex flex-col px-4 space-y-4 py-5 text-lg'>
             <Link to='/' onClick={toggleMenu} className='hover:text-white'>
               Home

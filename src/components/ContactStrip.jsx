@@ -13,7 +13,7 @@ const ContactStrip = () => {
         className='flex-1 bg-[#e5e6e8] h-20 md:h-30 flex items-center justify-center
                    border-r border-[#bfbfbf]
                    text-xl md:text-3xl lg:text-4xl font-semibold
-                   text-[#D4A017] px-4 whitespace-nowrap'
+                   text-[#daaf65] px-4 whitespace-nowrap'
       >
         Call Now
       </a>
@@ -27,7 +27,7 @@ const ContactStrip = () => {
         className='flex-1 bg-[#e5e6e8] h-20 md:h-30 flex items-center justify-center
              border-r border-[#bfbfbf]
              text-xl md:text-3xl lg:text-4xl font-semibold
-             text-[#D4A017] px-4 whitespace-nowrap'
+             text-[#daaf65] px-4 whitespace-nowrap'
       >
         Get in Touch
       </a>

@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 export default function FollowUs({ images, title, hide, link }) {
   return (
-    <section className="bg-black py-6 pt-10 px-4 lg:px-20">
-      <h2 className="text-[#D4A017] text-3xl lg:text-5xl md:text-6xl font-serif mb-12">
+    <section className="bg-[#161717] py-6 pt-10 px-4 lg:px-20">
+      <h2 className="text-[#daaf65] text-3xl lg:text-5xl md:text-6xl font-serif mb-12">
         {title}
       </h2>
 
@@ -52,7 +52,7 @@ export default function FollowUs({ images, title, hide, link }) {
       </Swiper>
 
       <div className={`flex justify-end md:pr-10 mt-6 md:mt-12 ${hide}`}>
-        <button className="text-[#D4A017] text-3xl lg:text-5xl tracking-[4px] flex items-center gap-3">
+        <button className="text-[#daaf65] text-3xl lg:text-5xl tracking-[4px] flex items-center gap-3">
           <Link to={link}><span className="text-3xl lg:text-4xl">←</span> VIEW ALL</Link>
         </button>
       </div>

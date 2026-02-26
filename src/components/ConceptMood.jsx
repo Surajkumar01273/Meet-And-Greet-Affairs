@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const ConceptMood = () => {
   return (
-    <section className="w-full bg-black text-white py-10 px-4 lg:px-20 font-[Inter]">
+    <section className="w-full bg-[#161717] text-white py-10 px-4 lg:px-20 font-[Inter]">
       <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
 
         {/* LEFT TEXT SECTION */}
@@ -14,7 +14,7 @@ const ConceptMood = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h1
-            className="text-3xl text-[#D4A017] md:text-5xl font-[Playfair_Display] mb-12 tracking-wide"
+            className="text-3xl text-[#daaf65] md:text-5xl font-[Playfair_Display] mb-12 tracking-wide"
             style={{ letterSpacing: "1px" }}
           >
             Concept & Mood

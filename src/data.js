@@ -399,10 +399,13 @@ export const festival = [
 export const servicesData = [
   {
     content: {
-      title: 'Birthday Parties',
-      introText: 'Personal moments, beautifully planned',
+      title: 'Birthday Party Planners',
+      introText: 'Kids & Adult Birthday Event Management',
       description:
-        'We plan birthdays that are fun, engaging, and visually appealing, tailored to the age group, preferences, and personality of the host.',
+        'Looking for reliable birthday party planners near you? We plan customised birthday celebrations for kids, teens, and adults, ensuring engaging activities, organised execution, and attractive décor. From theme planning to entertainment coordination, we manage every detail so hosts can enjoy the celebration without stress.',
+      heading:
+        'Kids’ birthday parties, milestone birthdays, home parties, banquet celebrations',
+        best : 'Best for :',
       offerTitle: 'What we offer:',
       offers: [
         'Theme-based décor & styling',
@@ -418,94 +421,103 @@ export const servicesData = [
 export const anniversaryThemeData = [
   {
     content: {
-      title: 'Anniversaries',
-      introText: 'Celebrating love, milestones, and memories',
+      title: 'Anniversary Event Planners',
+      introText: 'Elegant & Intimate Anniversary Celebrations',
       description:
-        'From intimate gatherings to milestone celebrations, we create anniversary events that reflect your journey and story.',
+        'Celebrate your special milestones with beautifully planned anniversary events. Whether it’s a private family gathering or a grand anniversary celebration, we design events that reflect your journey while ensuring smooth coordination and tasteful styling.',
+      heading:
+        'Silver & golden jubilees, intimate anniversary parties, surprise celebrations',
+        best : 'Best for :',
       offerTitle: 'What we offer:',
       offers: [
         'Elegant décor & floral styling',
         'Couple-focused moments & surprise elements',
         'Entertainment & hosting',
-        'End-to-end coordination',
+        'Complete on-ground event management',
       ],
     },
     image: '/gallery/anniversary.jpeg',
-  }
+  },
 ];
 
 export const babyThemeData = [
   {
     content: {
-      title: 'Baby Showers',
-      introText: 'Welcoming joy with warmth and grace',
+      title: 'Baby Shower Planners',
+      introText: 'Warm, Stylish & Stress-Free Baby Showers',
       description:
-        'We design baby showers that feel soft, joyful, and thoughtfully styled, making the mom-to-be feel truly special.',
+        'Our baby shower event planning services focus on comfort, joy, and thoughtful details. We create soft, welcoming setups with engaging activities, allowing families to celebrate this special moment with ease.',
+      heading: 'Home baby showers, intimate family gatherings',
+      best : 'Best for :',
       offerTitle: 'What we offer:',
       offers: [
         'Pastel-themed décor concepts',
-        'Games, anchors & hosting',
-        'Styled photo cornersg',
-        'Customized favors',
+        'Baby shower games & hosting',
+        'Photo corners & styling',
+        'Customized return favors',
       ],
     },
     image: '/baby/baby8.jpeg',
   },
-]
+];
 
 export const gurujiThemeData = [
   {
     content: {
-      title: 'Guruji Satsang',
-      introText: 'Spiritual gatherings planned with devotion and discipline',
+      title: 'Guruji Satsang Event Management',
+      introText: 'Peaceful, Disciplined & Well-Organised Spiritual Events',
       description:
-        'We manage Guruji Satsang with calm aesthetics, respectful arrangements, and smooth coordination.',
+        'We offer dedicated Guruji Satsang event planning services with respectful coordination and calm aes-thetics. Our team ensures disciplined arrangements, allowing devotees to focus fully on the spiritual experience.',
       offerTitle: 'What we offer:',
       offers: [
-        'Peaceful décor & floral setup',
-        'Seating & stage arrangement',
+        'Floral décor & serene setups',
+        'Seating & stage arrangements',
         'Prasad coordination',
         'Sound & microphone management',
       ],
     },
     image: '/guruji/guru1.jpeg',
   },
-]
+];
 
 export const weddingThemeData = [
   {
     content: {
-      title: 'Pre-Wedding Festivities',
-      introText: 'Joyful traditions, thoughtfully styled',
+      title: 'Pre-Wedding Event Planners',
+      introText: 'JMehendi, Haldi & Home-Based Celebrations',
       description:
-        'We plan pre-wedding celebrations that blend tradition with elegant décor and seamless flow.',
+        'We plan pre-wedding functions that blend tradition with tasteful décor and seamless coordination. From home setups to venue-based events, our team ensures every function flows smoothly and looks beautiful.',
+        heading: 'Mehendi ceremonies, Haldi functions, family pre-wedding events',
+        best : 'Best for :',
       offerTitle: 'What we offer:',
       offers: [
-        'Mehendi & Haldi décor planning',
-        'Home or venue-based styling',
-        'Backdrops, seating & floral décor',
-        'Entertainment & event coordination',
+        'Traditional & modern décor planning',
+        'Seating, backdrops & floral styling',
+        'Entertainment coordination',
+        'End-to-end execution',
       ],
     },
     image: '/haldi/haldi6.jpeg',
   },
-]
+];
 
 // ================= Corporate Event Services Data =================
 
 export const corporateData = [
   {
     content: {
-      title: 'Corporate Events',
-      introText: 'Polished, impactful, and well-managed',
+      title: 'Corporate Event Planners',
+      introText: 'Meetings, Conferences & Brand Events',
       description:
-        'We deliver corporate events that reflect your brand identity while ensuring smooth execution.',
+        'We deliver structured, well-managed corporate events that align with your brand identity. Our professional approach ensures punctuality, clarity, and smooth execution for all stakeholders.',
+         heading: 'Corporate meetings, conferences, product launches',
+         best : 'Best for :',
       offerTitle: 'What we offer:',
       offers: [
-        'Conferences, meetings & launches',
-        'Brand-aligned décor & setup',
+        'Corporate décor & setup',
         'AV & technical coordination',
-        'Guest flow & on-ground management',
+        'Guest & vendor management',
+        'On-ground execution',
       ],
     },
     image: '/corporate/corporate2.jpeg',
@@ -516,15 +528,13 @@ export const corporateThemeData = [
   {
     content: {
       title: 'School & Corporate Workshops',
-      introText: 'Engaging experiences that educate and inspire',
-      description:
-        'We curate workshops that are interactive, structured, and purpose-driven.',
+      introText: 'Interactive Learning & Engagement Programs',
+      description: 'Our workshop planning services focus on participation, learning, and engagement. We collaborate with professional facilitators to deliver impactful sessions for students and corporate teams.',
       offerTitle: 'What we offer:',
       offers: [
-        'Activity-based workshops',
-        'Professional facilitators & trainers',
-        'Student & employee engagement programs',
-        'Emotional intelligence & creative sessions',
+        'Activity-based workshops (Professional trainers & facilitators)',
+        'Employee & student engagement programs (Professional trainers & facilitators)',
+        'SCreative & emotional intelligence sessions (Professional trainers & facilitators)'
       ],
     },
     image: '/corporate/workshop.jpeg',
@@ -536,16 +546,16 @@ export const corporateThemeData = [
 export const premiumData = [
   {
     content: {
-      title: 'Luxury & Intimate Gatherings',
-      introText: 'Refined, intimate & bespoke celebrations',
+      title: 'Luxury & Intimate Event Planners',
+      introText: 'Bespoke, Private & High-End Celebrations',
       description:
-        'Perfect for private celebrations and exclusive gatherings, these events focus on elegance, comfort, and personalization.',
+        'For clients seeking refined, exclusive celebrations, our premium event planning services focus on per-sonalised details, elegant décor, and flawless execution.',
       offerTitle: 'What we offer:',
       offers: [
-        'Private & small-format celebrations',
+        'Private & intimate celebrations',
         'Premium décor & styling',
-        'Curated menus (coordination)',
-        'Personalized guest experiences',
+        'Curated guest experiences',
+        'Menu & vendor coordination',
       ],
     },
     image: '/premium/premium2.jpeg',
@@ -555,16 +565,16 @@ export const premiumData = [
 export const customThemeData = [
   {
     content: {
-      title: 'Customized Events',
-      introText: 'You imagine it. We design it.',
+      title: 'Customized Event Planning',
+      introText: 'Your Vision. Our Expertise.',
       description:
-        'For clients looking for something truly unique, we design events entirely around your vision.',
+        'We design fully customised events tailored to your concept, budget, and expectations. From idea to ex-ecution, we ensure clarity, creativity, and seamless delivery.',
       offerTitle: 'What we offer:',
       offers: [
-        'Tailor-made event concepts',
+        'Custom event concepts',
         'Budget-aligned planning',
-        'Unique themes & creative detailing',
-        'End-to-end execution',
+        'Unique themes & detailing',
+        'End-to-end event management',
       ],
     },
     image: '/birthday/birthday2.jpeg',
@@ -576,14 +586,14 @@ export const customThemeData = [
 export const supportData = [
   {
     content: {
-      title: 'Anchors & Hosts',
-      introText: 'Professional support that builds trust',
+      title: 'Event Support Services',
+      introText: 'Professional Anchors & Hosts',
       description:
         'Engaging and well-spoken hosts who maintain smooth flow and guest engagement.',
       offerTitle: 'What we offer:',
       offers: [
         'Kids-friendly to corporate-ready',
-        'Professional & experienced',
+        'Well-spoken & experienced',
       ],
     },
     image: '/game/anchor3.jpeg',
@@ -608,8 +618,8 @@ export const gameThemeData = [
   },
   {
     content: {
-      title: 'END-TO-END EVENT SOLUTIONS',
-      // introText: 'Anchors & Hosts.',
+      title: 'End-to-End Event Management',
+      introText: 'One Team. Complete Responsibility',
       description:
         'We provide complete event management so you can enjoy your celebration without stress.',
       offerTitle: 'What We Handle:',
@@ -621,7 +631,7 @@ export const gameThemeData = [
         'Entertainment & Anchoring',
         'Games & Activities',
         'Guest Experience Management',
-        'On-Ground Coordination'
+        'On-Ground Coordination',
       ],
     },
     image: '/game/endto1.jpeg',

@@ -43,7 +43,7 @@ Message: ${message}
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl md:text-5xl font-bold text-center text-yellow-400 mb-10"
+          className="text-4xl md:text-5xl font-bold text-center text-[#daaf65] mb-10"
         >
           Contact <span className="text-white">Us</span>
         </motion.h2>
@@ -57,7 +57,7 @@ Message: ${message}
           <form onSubmit={sendToWhatsApp} className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
             <div className="flex flex-col">
-              <label className="mb-1 text-sm text-yellow-400">First Name</label>
+              <label className="mb-1 text-sm text-[#daaf65]">First Name</label>
               <input
                 type="text"
                 name="first"
@@ -70,7 +70,7 @@ Message: ${message}
             </div>
 
             <div className="flex flex-col">
-              <label className="mb-1 text-sm text-yellow-400">Last Name</label>
+              <label className="mb-1 text-sm text-[#daaf65]">Last Name</label>
               <input
                 type="text"
                 name="last"
@@ -83,7 +83,7 @@ Message: ${message}
             </div>
 
             <div className="flex flex-col md:col-span-2">
-              <label className="mb-1 text-sm text-yellow-400">Phone Number</label>
+              <label className="mb-1 text-sm text-[#daaf65]">Phone Number</label>
               <input
                 type="tel"
                 name="phone"
@@ -96,7 +96,7 @@ Message: ${message}
             </div>
 
             <div className="flex flex-col md:col-span-2">
-              <label className="mb-1 text-sm text-yellow-400">Message</label>
+              <label className="mb-1 text-sm text-[#daaf65]">Message</label>
               <textarea
                 name="message"
                 value={formData.message}
@@ -112,7 +112,7 @@ Message: ${message}
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="mt-4 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-10 py-3 rounded-xl shadow-lg"
+                className="mt-4 bg-[#daaf65] hover:bg-yellow-600 text-black font-semibold px-10 py-3 rounded-xl shadow-lg"
               >
                 Send Message
               </motion.button>

@@ -4,7 +4,7 @@ import { TiTick } from "react-icons/ti";
 
 const SocielTheme = ({ anniversaryThemeData }) => {
   return (
-    <section className="bg-black pb-12 lg:py-24">
+    <section className="bg-[#161717] pb-12 lg:py-24">
       <div className="max-w-8xl mx-auto space-y-24 px-4 lg:px-20">
         {anniversaryThemeData.map((item, index) => {
           const isReverse = index % 2 !== 0;
@@ -27,26 +27,30 @@ const SocielTheme = ({ anniversaryThemeData }) => {
                   space-y-4 lg:ml-24
                 `}
               >
-                <h2 className="text-2xl md:text-4xl font-semibold text-[#D4A017]">
+                <h2 className="text-2xl md:text-4xl font-semibold text-[#daaf65]">
                   {content.title}
                 </h2>
 
-                <p className="text-xl text-[#D4A017] font-medium">
+                <p className="text-xl text-[#daaf65] font-medium">
                   {content.introText}
                 </p>
 
                 <p className="text-[#f5e7c3] leading-relaxed max-w-xl text-lg">
                   {content.description}
                 </p>
+                 <p className="text-[#f5e7c3] leading-relaxed max-w-xl text-lg">
+                  <span className='text-xl text-[#daaf65] font-medium'>{content.best}  </span>
+                   {content.heading}
+                </p>
 
                 <div>
-                  <h4 className="font-semibold text-[#D4A017] mb-3 text-xl">
+                  <h4 className="font-semibold text-[#daaf65] mb-3 text-xl">
                     {content.offerTitle}
                   </h4>
                   <ul className="space-y-2 text-[#f5e7c3] list-disc list-inside">
                     {content.offers.map((offer, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <TiTick className="text-[#D4A017] mt-1" />
+                        <TiTick className="text-[#daaf65] mt-1" />
                         <span className="text-[#f5e7c3] text-lg">{offer}</span>
                       </li>
                     ))}

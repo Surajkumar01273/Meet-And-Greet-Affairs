@@ -36,14 +36,14 @@ export default function SimpleGallery() {
           subtitle='Home › Gallery'
           backgroundImage={bannerImage}
         />
-        <section className='bg-gradient-to-b bg-black py-16 px-4 lg:px-20 relative'>
+        <section className='bg-gradient-to-b bg-[#161717] py-16 px-4 lg:px-20 relative'>
           {/* Decorative top blurred color */}
           <div className='pointer-events-none absolute inset-x-0 -top-10 blur-[90px] opacity-20'>
             <div className='mx-auto w-[60%] h-32 bg-rose-200 rounded-full'></div>
           </div>
 
           <div className='max-w-7xl mx-auto text-center mb-12'>
-            <h2 className='text-3xl md:text-5xl text-[#D4A017] font-bold'>
+            <h2 className='text-3xl md:text-5xl text-[#daaf65] font-bold'>
               Event Gallery
             </h2>
             <p className='mt-2 text-[#f5e7c3] text-lg'>

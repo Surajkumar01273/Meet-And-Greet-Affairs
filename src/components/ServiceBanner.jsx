@@ -13,7 +13,7 @@ const ServiceBanner = ({ subtitle, backgroundImage }) => {
       <div className='absolute inset-0 bg-black/60'></div>
 
       {/* Text */}
-      <div className='relative text mt-20 lg:top-26 z-10 px-4 md:px-0 text-[#D4A017]'>
+      <div className='relative text mt-20 lg:top-26 z-10 px-4 md:px-0 text-[#daaf65]'>
         <h1 className='text-3xl md:text-5xl font-bold mb-2'>Meet & Greet Affairs Events</h1>
         {subtitle && <p className='text-sm md:text-lg'>{subtitle}</p>}
       </div>

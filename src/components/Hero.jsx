@@ -149,7 +149,7 @@ Message: ${formData.message}`;
 
               <button
                 onClick={() => setShowForm(false)}
-                className="absolute top-4 right-4 text-gray-700 hover:text-black"
+                className="absolute top-4 right-4 text-gray-700 hover:text-[#161717]"
               >
                 <X size={22} />
               </button>
@@ -218,7 +218,7 @@ Message: ${formData.message}`;
 
                 <button
                   type="submit"
-                  className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-900 transition"
+                  className="w-full bg-[#161717] text-white py-3 rounded-lg hover:bg-gray-900 transition"
                 >
                   Submit on WhatsApp
                 </button>

@@ -10,14 +10,14 @@ const images = [
 
 const EventsPlanner = () => {
   return (
-    <section className="bg-black py-16 px-4 lg:px-20 hidden md:block">
+    <section className="bg-[#161717] py-16 px-4 lg:px-20 hidden md:block">
       
       {/* Title */}
       <motion.h2
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
-        className="text-center text-[#D4A017] text-4xl sm:text-5xl font-bold mb-12 lg:mb-18 italic"
+        className="text-center text-[#daaf65] text-4xl sm:text-5xl font-bold mb-12 lg:mb-18 italic"
         style={{ fontFamily: "'Great Vibes', cursive" }}
       >
         Events Planner
@@ -38,7 +38,7 @@ const EventsPlanner = () => {
             <img
               src={img}
               alt="Event"
-              className="w-full h-[350px] md:h-[450px] object-cover border border-yellow-300 rounded-sm transition-all duration-700 hover:scale-110"
+              className="w-full h-[350px] md:h-[450px] object-cover border border-[#daaf65] rounded-sm transition-all duration-700 hover:scale-110"
             />
           </motion.div>
         ))}

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function PlanningEvents() {
   return (
-    <div className="w-full text-[#D4A017] bg-black flex flex-col md:flex-row px-4 my-10 lg:px-20 gap-10">
+    <div className="w-full text-[#daaf65] bg-[#161717] flex flex-col md:flex-row px-4 py-10 lg:px-20 gap-10">
 
       {/* LEFT PANEL */}
       <motion.div

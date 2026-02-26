@@ -53,8 +53,8 @@ export default function PremiumTestimonials() {
   const current = testimonials[active];
 
   return (
-    <section className='bg-black py-4 px-4 lg:px-20'>
-      <h2 className='text-[#D4A017] text-3xl lg:text-5xl font-serif tracking-[6px] mb-8'>
+    <section className='bg-[#161717] py-4 px-4 lg:px-20'>
+      <h2 className='text-[#daaf65] text-3xl lg:text-5xl font-serif tracking-[6px] mb-8'>
         Client Reviews
       </h2>
 
@@ -72,14 +72,14 @@ export default function PremiumTestimonials() {
             <img
               src={current.src}
               alt=""
-              className='w-full h-[400px] lg:h-[520px] object-center rounded-2xl border-2 border-yellow-600'
+              className='w-full h-[400px] lg:h-[520px] object-center rounded-2xl border-2 border-[#D4A017]'
             />
           ) : (
             <video
               ref={videoRef}
               src={current.src}
               controls
-              className={`w-full h-[300px] md:h-[420px] lg:h-[520px] rounded-2xl border-2 border-yellow-600 ${
+              className={`w-full h-[300px] md:h-[420px] lg:h-[520px] rounded-2xl border-2 border-[#D4A017] ${
                 current.type === 'video1'
                   ? 'object-center'
                   : 'object-cover'
@@ -91,7 +91,7 @@ export default function PremiumTestimonials() {
             <p className='text-[#f5e7c3] text-lg lg:text-xl leading-relaxed'>
               {current.text}
             </p>
-            <p className='text-yellow-500 text-xl lg:text-2xl font-serif'>
+            <p className='text-[#daaf65] text-xl lg:text-2xl font-serif'>
               {current.name}
             </p>
           </div>
@@ -112,7 +112,7 @@ export default function PremiumTestimonials() {
               transition-all duration-300
               ${
                 active === index
-                  ? 'ring-2 ring-yellow-500 scale-105'
+                  ? 'ring-2 ring-[#D4A017] scale-105'
                   : 'opacity-70 hover:opacity-100'
               }`}
             >

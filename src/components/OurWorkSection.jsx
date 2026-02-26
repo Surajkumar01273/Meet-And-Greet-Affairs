@@ -55,14 +55,14 @@ const services = [
 
 export default function OurWorkSection() {
   return (
-    <section className='w-full bg-black py-16 text-white'>
-      <h2 className='text-center text-3xl lg:text-5xl font-[Playfair_Display] text-[#D4A017] font-bold tracking-widest mb-16'>
+    <section className='w-full bg-[#161717] py-16 text-white'>
+      <h2 className='text-center text-3xl lg:text-5xl font-[Playfair_Display] text-[#daaf65] font-bold tracking-widest mb-16'>
         Services
       </h2>
       {/* <div className="flex items-center justify-center gap-4 pt-2 mb-16">
-          <div className="w-36 h-[2px] bg-[#D4A017]"></div>
+          <div className="w-36 h-[2px] bg-[#daaf65]"></div>
           <div className="w-6 h-1 bg-[#0B2154]"></div>
-          <div className="w-36 h-[2px] bg-[#D4A017]"></div>
+          <div className="w-36 h-[2px] bg-[#daaf65]"></div>
         </div> */}
 
       <div className='max-w-8xl mx-auto px-4 lg:px-20'>
@@ -87,14 +87,14 @@ export default function OurWorkSection() {
                </Link>
               </div>
 
-              <h3 className='text-xl md:text-2xl font-semibold py-3 font-serif text-black leading-tight'>
+              <h3 className='text-xl md:text-2xl font-semibold py-3 font-serif text-[#161717] leading-tight'>
                 <Link to={item.link}>{item.title}</Link>
                 {/* {item.subtitle} */}
               </h3>
 
               <a
                 href='tel:9217017881'
-                className='my-3 inline-block bg-[#D4A017] text-black cursor-pointer rounded-tr-3xl rounded-bl-3xl text-lg font-bold px-6 py-2 shadow hover:bg-yellow-600 transition-all'
+                className='my-3 inline-block bg-[#daaf65] text-[#161717] cursor-pointer rounded-tr-3xl rounded-bl-3xl text-lg font-bold px-6 py-2 shadow hover:bg-yellow-600 transition-all'
               >
                 Book Now
               </a>

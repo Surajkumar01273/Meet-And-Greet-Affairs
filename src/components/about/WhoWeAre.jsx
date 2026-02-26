@@ -1,6 +1,6 @@
 const WhoWeAre = () => {
   return (
-    <section className="py-20 bg-black text-white">
+    <section className="py-20 bg-[#161717] text-white">
       <div className="max-w-6xl mx-auto px-4 text-center">
         
         {/* Title */}

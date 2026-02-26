@@ -42,13 +42,13 @@ Message: ${form.message}
     <div className='relative bg-[#F4E8C1] mb-10 md:mb-0'>
       {/* MAIN SECTION */}
       <div className='text-center py-10 md:py-20'>
-        <h1 className='text-2xl md:text-5xl font-serif text-[#926c0a]'>
+        <h1 className='text-2xl md:text-5xl font-serif text-[#daaf65]]'>
           If Interested, Let's Talk
         </h1>
 
         <button
           onClick={() => setOpenForm(true)}
-          className='mt-10 bg-[#b89034] text-white px-10 py-4 text-lg tracking-wide 
+          className='mt-10 bg-[#161717] text-white px-10 py-4 text-lg tracking-wide 
                      uppercase hover:bg-[#9d792c] transition-all cursor-pointer font-semibold rounded-lg'
         >
           Click Here

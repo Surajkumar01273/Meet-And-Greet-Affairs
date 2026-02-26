@@ -7,7 +7,7 @@ import { Autoplay } from "swiper/modules";
 
 export default function ServiceCard({ title, desc, services, link }) {
   return (
-    <section className="relative bg-black py-6 mb-10 overflow-hidden mx-4 lg:mx-20">
+    <section className="relative bg-[#161717] py-6 pb-10 overflow-hidden px-4 lg:px-20">
 
       <Swiper
         spaceBetween={30}
@@ -25,7 +25,7 @@ export default function ServiceCard({ title, desc, services, link }) {
         {services.map((service) => (
           <SwiperSlide key={service.id}>
             <div
-              className="relative rounded-3xl overflow-hidden bg-[#F4E8C1] backdrop-blur-md shadow-lg border border-pink-100 hover:border-yellow-300 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl group"
+              className="relative rounded-3xl overflow-hidden bg-[#daaf65] shadow-lg border border-pink-100 hover:border-yellow-300 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl group"
             >
               <div className="overflow-hidden rounded-t-3xl relative">
                 <img

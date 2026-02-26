@@ -15,16 +15,16 @@ export default function ServiceTheme({ title, desc, services }) {
   };
 
   return (
-    <section className='relative bg-black py-6 overflow-hidden'>
+    <section className='relative bg-[#161717] py-6 overflow-hidden'>
       {/* 🎉 Section Heading */}
       <div className='relative text-center mb-2'>
-        <h2 className='text-2xl md:text-5xl font-extrabold text-[#D4A017] drop-shadow-md'>
+        <h2 className='text-2xl md:text-5xl font-extrabold text-[#daaf65] drop-shadow-md'>
           {title}
         </h2>
         <div className='flex items-center justify-center gap-4 py-6'>
-          <div className='w-40 h-1 bg-[#D4A017]'></div>
+          <div className='w-40 h-1 bg-[#daaf65]'></div>
           <div className='w-6 h-2 bg-[#0B2154]'></div>
-          <div className='w-40 h-1 bg-[#D4A017]'></div>
+          <div className='w-40 h-1 bg-[#daaf65]'></div>
         </div>
         <p className='text-gray-700 mt-3 text-sm md:text-base max-w-3xl mx-auto'>
           {desc}
@@ -35,13 +35,13 @@ export default function ServiceTheme({ title, desc, services }) {
       <div className='flex justify-between px-4 md:px-20 mb-4'>
         <button
           onClick={scrollLeft}
-          className='bg-[#D4A017] p-3 rounded-full text-black hover:bg-yellow-500 transition'
+          className='bg-[#daaf65] p-3 rounded-full text-[#161717] hover:bg-yellow-500 transition'
         >
           <FaChevronLeft />
         </button>
         <button
           onClick={scrollRight}
-          className='bg-[#D4A017] p-3 rounded-full text-black hover:bg-yellow-500 transition'
+          className='bg-[#daaf65] p-3 rounded-full text-[#161717] hover:bg-yellow-500 transition'
         >
           <FaChevronRight />
         </button>
@@ -72,7 +72,7 @@ export default function ServiceTheme({ title, desc, services }) {
 
             {/* 📋 Content */}
             <div className='py-2 md:py-6 px-4 flex flex-col justify-between'>
-              <h3 className='text-xl font-bold text-center text-black md:mb-4 group-hover:text-[#D4A017] transition'>
+              <h3 className='text-xl font-bold text-center text-[#161717] md:mb-4 group-hover:text-[#daaf65] transition'>
                 {service.title}
               </h3>
 
@@ -81,7 +81,7 @@ export default function ServiceTheme({ title, desc, services }) {
                 <div className='flex justify-between gap-3'>
                   <a
                     href='tel:+919217017881'
-                    className='bg-black p-5 rounded-full hover:scale-110 transition'
+                    className='bg-[#161717] p-5 rounded-full hover:scale-110 transition'
                   >
                     <FaPhoneAlt className='text-white text-lg' />
                   </a>
@@ -92,7 +92,7 @@ export default function ServiceTheme({ title, desc, services }) {
                     )}`}
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='bg-[#D4A017] py-2 md:py-3 text-md flex items-center justify-center md:text-xl px-4 text-black font-semibold rounded-full hover:scale-110 transition'
+                    className='bg-[#daaf65] py-2 md:py-3 text-md flex items-center justify-center md:text-xl px-4 text-black font-semibold rounded-full hover:scale-110 transition'
                   >
                     Get in touch
                   </a>

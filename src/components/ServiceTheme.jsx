@@ -3,19 +3,19 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function ServiceTheme({ title, desc, services }) {
   return (
-    <section className="relative bg-black py-6 overflow-hidden mt-10">
+    <section className="relative bg-[#161717] py-6 overflow-hidden mt-10">
       {/* 🎊 Soft Confetti Pattern Background */}
       {/* <div className="absolute inset-0 opacity-10 bg-[url('/confetti.png')] bg-repeat bg-[length:180px_180px] pointer-events-none"></div> */}
 
       {/* 🎉 Section Heading */}
       <div className="relative text-center mb-14">
-        <h2 className="text-2xl md:text-5xl font-extrabold text-[#D4A017] drop-shadow-md">
+        <h2 className="text-2xl md:text-5xl font-extrabold text-[#daaf65] drop-shadow-md">
           {title}
         </h2>
         <div className="flex items-center justify-center gap-4 py-6">
-          <div className="w-40 h-1 bg-[#D4A017]"></div>
+          <div className="w-40 h-1 bg-[#daaf65]"></div>
           <div className="w-6 h-2 bg-[#0B2154]"></div>
-          <div className="w-40 h-1 bg-[#D4A017]"></div>
+          <div className="w-40 h-1 bg-[#daaf65]"></div>
         </div>
         <p className="text-gray-700 mt-3 text-sm md:text-base max-w-3xl mx-auto">
           {services.desc}
@@ -27,7 +27,7 @@ export default function ServiceTheme({ title, desc, services }) {
         {services.map((service) => (
           <div
             key={service.id}
-            className="relative rounded-3xl overflow-hidden bg-[#F4E8C1] backdrop-blur-md shadow-lg border border-pink-100 hover:border-yellow-300 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl group"
+            className="relative rounded-3xl overflow-hidden bg-[#daaf65] backdrop-blur-md shadow-lg border border-pink-100 hover:border-yellow-300 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl group"
           >
             {/* 🖼️ Image */}
             <div className="overflow-hidden rounded-t-3xl relative">
@@ -42,7 +42,7 @@ export default function ServiceTheme({ title, desc, services }) {
             {/* 📋 Content */}
             <div className="p-6 flex flex-col justify-between">
               <div>
-                <h3 className="text-xl font-bold text-center text-black mb-2 group-hover:text-[#D4A017] transition">
+                <h3 className="text-xl font-bold text-center text-black mb-2 group-hover:text-[#daaf65] transition">
                   {service.title}
                 </h3>
                 {/* <p className="text-gray-700 text-sm leading-relaxed">
@@ -55,7 +55,7 @@ export default function ServiceTheme({ title, desc, services }) {
                 <div className="flex justify-between gap-3">
                   <a
                     href="tel:+919217017881"
-                    className="bg-black p-5 rounded-full hover:scale-110 transition"
+                    className="bg-[#161717] p-5 rounded-full hover:scale-110 transition"
                   >
                     <FaPhoneAlt className="text-white text-lg" />
                   </a>
@@ -65,7 +65,7 @@ export default function ServiceTheme({ title, desc, services }) {
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#D4A017] py-3 text-xl px-4 text-black font-semibold rounded-full hover:scale-110 transition"
+                    className="bg-[#daaf65] py-3 text-xl px-4 text-[#161717] font-semibold rounded-full hover:scale-110 transition"
                   >
                     {/* <FaWhatsapp className="text-white text-lg" /> */}
                     Get in touch

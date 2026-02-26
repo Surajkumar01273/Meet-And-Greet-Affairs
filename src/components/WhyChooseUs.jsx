@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom';
 
 export default function WhyChooseUs() {
   return (
-    <section className='bg-black text-white py-10 lg:py-20 px-4 lg:px-20'>
+    <section className='bg-[#161717] text-white py-10 lg:py-20 px-4 lg:px-20'>
       <div className='max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center'>
         {/* ================= LEFT CONTENT ================= */}
         <div>
-          <p className='text-sm uppercase tracking-widest text-[#D4A017] mb-3'>
+          <p className='text-sm uppercase tracking-widest text-[#daaf65] mb-3'>
             Welcome to Meet & Greet Affairs
           </p>
 
-          <h1 className='text-3xl md:text-4xl lg:text-5xl text-[#D4A017] font-bold leading-tight mb-6'>
+          <h1 className='text-3xl md:text-4xl lg:text-5xl text-[#daaf65] font-bold leading-tight mb-6'>
             Best Event Management <br />
             <span className='text-white'>Company in Gurgaon</span>
           </h1>
 
           <p className='text-gray-300 text-xl leading-relaxed mb-6'>
-            <span className='text-[#D4A017]'>Meet & Greet Affairs</span> is a
+            <span className='text-[#daaf65]'>Meet & Greet Affairs</span> is a
             boutique event planning studio dedicated to creating premium,
             meaningful, and beautifully executed celebrations. We specialise in
             social, corporate, and luxury events — designed with elegance,
@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
 
           <a
             href='tel:9217017881'
-            className='inline-flex items-center justify-center gap-2 bg-[#D4A017] text-black w-full lg:w-auto md:px-20 py-3 rounded-lg font-bold hover:bg-zinc-300 transition'
+            className='inline-flex items-center justify-center gap-2 bg-[#daaf65] text-[#161717] w-full lg:w-auto md:px-20 py-3 rounded-lg font-bold hover:bg-zinc-300 transition'
           >
             BOOK NOW
           </a>
@@ -41,7 +41,7 @@ export default function WhyChooseUs() {
         {/* ================= RIGHT IMAGE ================= */}
         <div className='relative'>
           {/* Background frame */}
-          <div className='absolute -top-6 -right-6 w-full h-full bg-[#D4A017] rounded-lg hidden lg:block'></div>
+          <div className='absolute -top-6 -right-6 w-full h-full bg-[#daaf65] rounded-lg hidden lg:block'></div>
 
           <img
             src='/gallery/why.JPG' // replace with your image path

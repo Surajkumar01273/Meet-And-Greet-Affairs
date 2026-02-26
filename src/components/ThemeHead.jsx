@@ -4,17 +4,17 @@ import { TiTick } from 'react-icons/ti';
 
 const ThemeHead = ({ servicesData, title }) => {
   return (
-    <section className='bg-black py-10 lg:pt-16 lg:pb-4'>
+    <section className='bg-[#161717] py-10 lg:pt-16 lg:pb-4'>
       {/* SECTION HEADING */}
       <div className='text-center mb-16'>
-        <h2 className='text-3xl lg:text-5xl font-bold text-[#D4A017]'>
+        <h2 className='text-3xl lg:text-5xl font-bold text-[#daaf65]'>
           {title}
         </h2>
-        {/* <div className='w-36 h-[2px] bg-[#D4A017] mx-auto mt-3'></div> */}
+        {/* <div className='w-36 h-[2px] bg-[#daaf65] mx-auto mt-3'></div> */}
       </div>
 
       {servicesData.map((item, index) => {
-        const { title, introText, description, offerTitle, offers } =
+        const { title, introText, description, offerTitle, offers, heading, best } =
           item.content;
 
         return (
@@ -31,29 +31,32 @@ const ThemeHead = ({ servicesData, title }) => {
               className='space-y-6'
             >
               {/* SERVICE TITLE */}
-              <h3 className='text-2xl lg:text-4xl font-semibold text-[#D4A017]'>
+              <h3 className='text-2xl lg:text-4xl font-semibold text-[#daaf65]'>
                 {title}
               </h3>
 
-              {/* <div className='w-24 h-[2px] bg-[#D4A017]'></div> */}
+              {/* <div className='w-24 h-[2px] bg-[#daaf65]'></div> */}
 
               {/* INTRO TEXT */}
-              <p className='text-xl text-[#D4A017] font-medium'>{introText}</p>
+              <p className='text-xl text-[#daaf65] font-medium'>{introText}</p>
 
               {/* DESCRIPTION */}
               <p className='text-[#f5e7c3] leading-relaxed max-w-xl text-lg'>
                 {description}
               </p>
+               <p className="text-[#f5e7c3] leading-relaxed max-w-xl text-lg">
+                  <span className='text-xl text-[#daaf65] font-medium'>{best} </span> {heading}
+                </p>
 
               {/* OFFERS */}
               <div>
-                <h4 className='font-semibold text-[#D4A017] mb-3 text-xl'>
+                <h4 className='font-semibold text-[#daaf65] mb-3 text-xl'>
                   {offerTitle}
                 </h4>
                 <ul className='space-y-2 text-[#f5e7c3] list-disc list-inside'>
                   {offers.map((offer, idx) => (
                     <li key={idx} className='flex items-start gap-2'>
-                      <TiTick className='text-[#D4A017] mt-1' />
+                      <TiTick className='text-[#daaf65] mt-1' />
                       <span className='text-[#f5e7c3] text-lg'>{offer}</span>
                     </li>
                   ))}

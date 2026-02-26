@@ -15,7 +15,7 @@ const strengths = [
 const WhyChooseUs = () => {
   return (
     <section
-      className="relative py-16 lg:py-16 text-[#D4A017] bg-cover bg-center bg-no-repeat"
+      className="relative py-16 lg:py-16 text-[#daaf65] bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/service/sociel1.jpg')" }}
     >
       {/* Dark Overlay */}
@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
               className="flex items-start gap-4 bg-black/60 backdrop-blur-sm border border-neutral-700 rounded-xl p-6 hover:border-[#d4af37] transition"
             >
               <TiTick className="text-[#d4af37] text-2xl mt-1 flex-shrink-0" />
-              <p className="text-[#D4A017] text-lg md:text-xl">{item}</p>
+              <p className="text-[#daaf65] text-lg md:text-xl">{item}</p>
             </div>
           ))}
         </div>
